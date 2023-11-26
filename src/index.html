@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black Sugar Pet Shop</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: 'Indie Flower', cursive;
+      font-size: 18px;
+      /* Increase base font size */
+    }
+
+    .panel-pet {
+      border-color: #ddd;
+      background-color: #f8f8f8;
+      min-height: 550px;
+      /* Set a minimum height for each panel */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .panel-body {
+      flex: 1;
+      /* This allows the panel body to expand and fill the space */
+    }
+
+    .panel-title {
+      color: #333;
+      font-size: 24px;
+      /* Larger font size for panel titles */
+    }
+
+    .btn-adopt {
+      background-color: #5cb85c;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      /* Larger button text */
+    }
+
+    .img-rounded {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+      max-width: 100%;
+      /* This ensures the image is never wider than its container */
+      height: auto;
+      /* This ensures the image height is adjusted proportionally */
+    }
+
+    .text-center {
+      font-size: 42px;
+      /* Significantly larger title */
+      color: #4A90E2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-push-2">
+        <h1 class="text-center">Black Sugar Pet Shop</h1>
+        <hr />
+        <br />
+      </div>
+    </div>
+
+    <div id="petsRow" class="row">
+      <!-- PETS LOAD HERE -->
+    </div>
+  </div>
+
+  <div id="petTemplate" style="display: none;">
+    <div class="col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 20px;">
+      <div class="panel panel-default panel-pet">
+        <div class="panel-heading">
+          <h3 class="panel-title">Scrappy</h3>
+        </div>
+        <div class="panel-body">
+          <img alt="140x140" class="img-rounded img-center" style="width: 100%;"
+            src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg">
+          <br /><br />
+          <strong>Breed</strong>: <span class="pet-breed">Golden Retriever</span><br />
+          <strong>Age</strong>: <span class="pet-age">3</span><br />
+          <strong>Location</strong>: <span class="pet-location">Warren, MI</span><br /><br />
+          <button class="btn btn-default btn-adopt" type="button" data-id="0">Take me Home!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

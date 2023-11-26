@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "Milo",
+    "picture": "images/1.jpg",
+    "age": 4,
+    "breed": "Domestic Longhair",
+    "location": "Zhongzheng District, Taipei"
+  },
+  {
+    "id": 1,
+    "name": "Bella",
+    "picture": "images/2.jpg",
+    "age": 5,
+    "breed": "Ragdoll",
+    "location": "Xinyi District, Taipei"
+  },
+  {
+    "id": 2,
+    "name": "Charlie",
+    "picture": "images/3.png",
+    "age": 1,
+    "breed": "Chihuahua",
+    "location": "Luzhu District, Taoyuan"
+  },
+  {
+    "id": 3,
+    "name": "Lucy",
+    "picture": "images/4.png",
+    "age": 2,
+    "breed": "Shiba Inu",
+    "location": "Sanmin District, Kaohsiung"
+  },
+  {
+    "id": 4,
+    "name": "Max",
+    "picture": "images/5.png",
+    "age": 3,
+    "breed": "Jack Russell Terrier",
+    "location": "Tamsui District, New Taipei"
+  },
+  {
+    "id": 5,
+    "name": "Daisy",
+    "picture": "images/6.png",
+    "age": 3,
+    "breed": "Bichon Frise",
+    "location": "Taiping District, Taichung"
+  },
+  {
+    "id": 6,
+    "name": "Bailey",
+    "picture": "images/7.png",
+    "age": 2,
+    "breed": "Maltese",
+    "location": "Annan District, Tainan"
+  },
+  {
+    "id": 7,
+    "name": "Oliver",
+    "picture": "images/8.png",
+    "age": 1,
+    "breed": "Yorkshire Terrier",
+    "location": "Beitun District, Taichung"
+  },
+  {
+    "id": 8,
+    "name": "Sadie",
+    "picture": "images/9.png",
+    "age": 4,
+    "breed": "Poodle",
+    "location": "North District, Hsinchu"
+  },
+  {
+    "id": 9,
+    "name": "Toby",
+    "picture": "images/10.png",
+    "age": 2,
+    "breed": "Schnauzer",
+    "location": "East District, Tainan"
+  },
+  {
+    "id": 10,
+    "name": "Hershey",
+    "picture": "images/11.jpeg",
+    "age": 1,
+    "breed": "Pomeranian",
+    "location": "Neihu District, Taipei"
+  },
+  {
+    "id": 11,
+    "name": "Ginger",
+    "picture": "images/12.png",
+    "age": 1,
+    "breed": "Munchkin Cat",
+    "location": "Banqiao District, New Taipei"
+  },
+  {
+    "id": 12,
+    "name": "Pepper",
+    "picture": "images/13.png",
+    "age": 1,
+    "breed": "British Shorthair",
+    "location": "Sanchong District, New Taipei"
+  },
+  {
+    "id": 13,
+    "name": "Oreo",
+    "picture": "images/14.png",
+    "age": 1,
+    "breed": "Domestic Shorthair",
+    "location": "Zhongli District, Taoyuan"
+  },
+  {
+    "id": 14,
+    "name": "Snowball",
+    "picture": "images/15.png",
+    "age": 1,
+    "breed": "Persian Cat",
+    "location": "Yonghe District, New Taipei"
+  },
+  {
+    "id": 15,
+    "name": "Pumpkin",
+    "picture": "images/16.png",
+    "age": 1,
+    "breed": "Domestic Longhair",
+    "location": "Tucheng District, New Taipei"
+  }
+]
